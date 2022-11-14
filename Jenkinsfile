@@ -7,9 +7,9 @@ pipeline {
             steps {
                 gitcheckout
                 {
-                    branch: "main" ,
+                    branch: "hello-world-spring-boot" ,
                     //credentialsID: ""
-                    url: "https://github.com/abhijeetatmindstix/sharedlibrary.git"
+                    url: "https://github.com/SumeetBandgar/Java.git"
                 }
             }
         }
