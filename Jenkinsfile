@@ -7,7 +7,7 @@ pipeline {
             steps {
                 gitcheckout
                 {
-                    branch: "hello-world-spring-boot" ,
+                    branch: "hello-world-spring-boot" 
                     //credentialsID: ""
                     url: "https://github.com/SumeetBandgar/Java.git"
                 }
