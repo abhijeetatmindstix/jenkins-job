@@ -1,4 +1,4 @@
-//@library("checkingRepo") _
+@library("checkingRepo") _
 
 pipeline {
     agent any
