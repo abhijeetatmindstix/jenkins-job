@@ -1,16 +1,16 @@
-//@library("checkingRepo") _
+@library("checkingRepo") _
 
 pipeline {
     agent any
     stages {
         stage('gitCheckoutRepo') {
             steps {
-                gitcheckout.call()
-                {
+                gitcheckout
+                {{
                     branch: "main"
                     //credentialsID: ""
                     url: "https://github.com/abhijeetatmindstix/sharedlibrary.git"
-                }
+                }}
             }
         }
     }
