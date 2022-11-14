@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script{
                     
-                    gitcheckout.checkout(params.REPO_URL, params.BRANCH_NAME)
+                    gitcheckout.checkout("https://github.com/SumeetBandgar/Java.git", "hello-world-spring-boot")
                 }
             }
         }
