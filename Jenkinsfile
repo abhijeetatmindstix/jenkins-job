@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('gitCheckoutRepo') {
             steps {
-                gitcheckout
+                gitcheckout.checkout
                 {
                     branch: "hello-world-spring-boot" 
                     //credentialsID: ""
